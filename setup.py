@@ -11,7 +11,7 @@ setup(
   download_url = 'https://github.com/nerophung/jpn-text-gen/archive/dev-2.0.tar.gz',
   keywords = ['Japanese', 'Generator', 'OCR'],
   packages = ['jpntextgen', 'jpntextgen.utils'],
-  pakage_data={
+  package_data={
     'data': ['address.pkl', 'email.txt', 'first_name.txt', 'last_name.txt'],
   },
   include_package_data=True,

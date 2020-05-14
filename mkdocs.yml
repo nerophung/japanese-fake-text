@@ -1,0 +1,6 @@
+site_name: Japanese Text Generator Docs
+site_author: NeroPhung
+nav:
+    - Home: 'index.md'
+    - About: 'about.md'
+theme: readthedocs
