@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 from .address_provider import AddressProvider
 from .name_provider import NameProvider
 
