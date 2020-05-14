@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 import os
 import pickle
 import random
@@ -6,8 +7,8 @@ from .utils import constants
 
 class AddressProvider(object):
 
-    def __init__(self, data_path='./data'):
-        self.__handle = open(os.path.join(data_path, 'address.pkl'), 'rb')
+    def __init__(self, data_path='data'):
+        self.__handle = open(os.path.join(os.path.abspath(os.path.dirname(__file__)), data_path , 'address.pkl'), 'rb')
         self.__address_provider = pickle.load(self.__handle)
         self.__handle.close()
 
