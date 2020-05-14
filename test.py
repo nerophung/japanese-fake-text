@@ -4,3 +4,4 @@ engine = Engine()
 
 print(engine.get_address())
 print(engine.get_full_name())
+print(engine.get_date())

@@ -2,7 +2,7 @@ from distutils.core import setup
 from setuptools import find_packages
 setup(
   name = 'jpntextgen',
-  version = '2.0',
+  version = '2.0.1',
   license='MIT',
   description = 'The Japanese Text Generator Library use to generate the japanese general text such as name, address',
   author = 'Nero Phung',
