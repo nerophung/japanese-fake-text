@@ -3,10 +3,10 @@ import os
 
 class NameProvider(object):
 
-    def __init__(self,  data_path='./data'):
-        with open(os.path.join(data_path, 'first_name.txt')) as first_name_file:
+    def __init__(self,  data_path='data'):
+        with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), data_path, 'first_name.txt')) as first_name_file:
             self.__first_name_provider = first_name_file.readlines()
-        with open(os.path.join(data_path, 'last_name.txt')) as last_name_file:
+        with open(os.path.join(os.path.dirname(__file__), data_path, 'last_name.txt')) as last_name_file:
             self.__last_name_provider = last_name_file.readlines()
 
     def get_first_name(self):
