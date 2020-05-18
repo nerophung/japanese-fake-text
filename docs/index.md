@@ -115,7 +115,7 @@ address_provider = engine.get_address_provider()
 
 print(address_provider.get_address())
 
-# 大永24.24.09
+# 沖縄県島尻郡与那原町上与那原2番地2号 ケペズアク
 ```
 
 For more code, see [Source code](https://github.com/nerophung/jpn-text-gen/blob/master/jpntextgen/address_provider.py)
