@@ -5,7 +5,7 @@ cycler==0.10.0
 entrypoints==0.3
 ipython-genutils==0.2.0
 jupyter==1.0.0
-mistune==0.8.4
+mistune==2.0.3
 nbformat==4.4.0
 pandocfilters==1.4.2
 pathlib==1.0.1
